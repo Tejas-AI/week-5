@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <style type="text/css">
+            .overlay-desc {
+              background: rgba(0,0,0,0);
+              position: absolute;
+              top: 0; right: 0; bottom: 0; left: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: white;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="container-fluid bg-warning">
+                <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+                        <a class="navbar-brand " href="index.html">TMeals</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link " href="index.html" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link " href="#" id="todays">Today's Special</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#" id="vegans">Vegan</a>
+                            </li>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#" id="vege">Vegetrain</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Non-Vegan
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#" id="chicki">Chicken</a>
+                                        <a class="dropdown-item" href="#" id="seafoodie">Seafood</a>
+                                        <a class="dropdown-item" href="#" id="porki">Pork</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Our-Specials
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#" id="desserti">Desserts</a>
+                                        <a class="dropdown-item" href="#" id="pastas">Pasta</a>
+                                    </div>
+                            </li>   
+                          </ul>
+                        </div>
+                      </nav>
+                      <div id="img" class=".d-sm-none .d-md-block">
+                      <video poster="https://media.blueapron.com/home_page/Splash/website_header_201905_poster.jpg?quality=80" preload="auto" autoplay="" loop="" muted="" class="col-lg-12">
+                        <source src="https://media.blueapron.com/home_page/Splash/website_header_201905.mp4" type="video/mp4" >
+                      </video>
+                      <div class="overlay-desc  .d-sm-none .d-md-block">
+                        <h1 class="font-weight-bold display-3">STOP CRAVING,<br>START ODERING<br><button class="btn btn-warning btn-lg">GET STARTED</button></h1>
+                     </div>
+                      </div> 
+                      <div class="container mt-5"id="box2">
+                      <div class="row" >
+                        <div class="col-lg-6">
+                          <img src="resources/sam-moqadam-c3lbwI6F-tM-unsplash.jpg" class="figure-img img-fluid  rounded" style="height: 500px" alt="...">
+                        </div>
+                        <div class="col-lg-6">
+                          <h1  class="font-weight-bolder display-4 mt-5">Choose your meals</h1>
+                          <h3 class="text-dark mt-4 align-middle">Our chef-designed recipes include balanced Mediterranean meals, quick one-pan dinners, and top-rated customer favorites.</h3>
+                        </div>
+                        <div class="col-lg-6">
+                          <h1  class="font-weight-bolder display-4 mt-5">Unpack your box</h1>
+                          <h3 class="text-dark mt-4 align-middle">We guarantee the freshness of all our ingredients and deliver them in an insulated box right to your door.</h3>
+                        </div>
+                        <div class="col-lg-5 offset-1">
+                          <figure class="figure">
+                            <img src="resources/maria-m-vXOpydUS3dE-unsplash.jpg" class="figure-img img-fluid rounded" style="height:500px;" alt="...">
+                          </figure>    
+                        </div>
+                        <div class="col-lg-6 mt-4">
+                          <img src="resources/brooke-lark-jUPOXXRNdcA-unsplash.jpg" class="figure-img img-fluid  rounded"  alt="...">
+                        </div>
+                        <div class="col-lg-5 offset-1">
+                          <h1  class="font-weight-bolder display-4 mt-5">Enjoy your meal</h1>
+                          <h3 class="text-dark mt-4 align-middle">you’ll experience the magic of your meals that our chefs create with your family’s tastes in mind.</h3>
+                        </div>
+                      </div>
+                      </div>
+                      <div id="today" class="row mt-5">
+                      </div>
+                      <div id="Vegan" class="row mt-5">
+                      </div> 
+                      <div id="vegi" class="row mt-5">
+                      </div>
+                      <div id="chick" class="row mt-5">
+                      </div>
+                      <div id="seafood" class="row mt-5">
+                      </div>
+                      <div id="pork" class="row mt-5">
+                      </div>
+                      <div id="desserts" class="row mt-5">
+                      </div>
+                      <div id="pasta" class="row mt-5">
+                      </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </body>
+</html>
+
